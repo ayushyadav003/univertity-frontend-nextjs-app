@@ -1,0 +1,32 @@
+.headerContainer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  .topBar {
+    display: flex;
+    color: #fff;
+    span {
+      font-size: 14px;
+      background-color: #000;
+      padding: 5px;
+      width: 100%;
+      text-align: center;
+      border-right: 1px solid gray;
+    }
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: #fff;
+    height: 60px;
+  }
+
+  .logo {
+  }
+  .linksWrapper {
+    display: flex;
+    gap: 2rem;
+  }
+}
