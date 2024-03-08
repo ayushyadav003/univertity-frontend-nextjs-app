@@ -1,0 +1,67 @@
+.mobileCotainer {
+  display: none;
+}
+.container {
+  width: 100%;
+  min-height: 650px;
+  display: flex;
+  position: relative;
+  h2 {
+    color: #023d74;
+    padding: 10px 20px;
+    font-size: 2.6em;
+    text-align: center;
+    border-radius: 10px;
+    margin: 35px 0;
+  }
+
+  .inner {
+    position: relative;
+    width: 50%;
+    justify-content: center;
+    background-color: #fbfbfb;
+    align-items: center;
+    p {
+      padding: 0 3rem 0 3rem;
+      font-size: 1em;
+    }
+  }
+  .inner2 {
+    position: relative;
+    width: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/images/intro1.jpg');
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: none;
+  }
+  .mobileCotainer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    h2 {
+      color: #023d74;
+      padding: 10px;
+      img {
+        height: 30px;
+      }
+    }
+    p {
+      padding: 10px;
+    }
+    .image {
+      position: relative;
+      height: 300px;
+      margin-top: 1rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}

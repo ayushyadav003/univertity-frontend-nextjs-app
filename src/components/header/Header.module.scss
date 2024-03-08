@@ -2,6 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 999;
   .topBar {
     display: flex;
     color: #fff;
@@ -19,6 +20,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
+    border-bottom: 1px solid #dcdcdc;
     background-color: #fff;
     height: 60px;
   }

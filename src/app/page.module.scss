@@ -1,0 +1,32 @@
+.homePageContainer {
+  margin-top: 85px;
+  .bannerWrapper {
+    .banner {
+      position: relative;
+      height: 400px;
+      img {
+        object-fit: cover;
+        filter: brightness(0.8);
+      }
+    }
+  }
+  .introSection {
+    padding: 2rem;
+    h1 {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    div {
+      display: flex;
+      align-items: center;
+      p {
+        width: 70%;
+      }
+      img {
+        height: 400px;
+        width: 600px;
+        object-fit: contain;
+      }
+    }
+  }
+}

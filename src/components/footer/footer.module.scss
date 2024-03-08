@@ -1,0 +1,148 @@
+.footerWrapper {
+  background: #023d74;
+  padding: 50px 50px 100px 50px;
+  color: #fff;
+  display: block;
+  position: relative;
+  margin-top: 35px;
+
+  .footerLinks {
+    display: flex;
+    width: 100%;
+    gap: 9rem;
+
+    h3 {
+      font-size: 19px;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: 400;
+      margin: 10px 0;
+    }
+
+    .inner1 {
+      //width: 30%;
+      width: 272px;
+
+      img {
+        // height: 250px;
+        margin-top: 20px;
+        width: 250px;
+        margin-bottom: 1rem;
+      }
+    }
+    .linkWrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .inner2 {
+      width: 25%;
+    }
+  }
+
+  .inner3 {
+    div {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+
+  h2 {
+    text-align: left;
+    margin: 3rem 0 2rem 0;
+    gap: 3;
+  }
+
+  .addressWrapper {
+    display: flex;
+    gap: 10%;
+
+    h3 {
+      margin: 5px 0;
+    }
+
+    p {
+      margin: 12px auto;
+      font-size: 15px;
+      font-weight: 300;
+    }
+  }
+
+  .copyRightStrip {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #032d51;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      padding: 0 20px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footerWrapper {
+    padding: 40px 15px 100px 15px;
+
+    .footerLinks {
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem;
+
+      .inner1 {
+        width: 100%;
+
+        img {
+          width: 180px;
+          margin-bottom: 1rem;
+        }
+      }
+
+      .inner2 {
+        width: 100%;
+      }
+
+      .inner3 {
+        div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 1rem;
+        }
+      }
+    }
+
+    .addressWrapper {
+      display: flex;
+      text-align: center;
+      gap: 4%;
+
+      h3 {
+        margin: 5px 0;
+        font-size: 16px;
+      }
+
+      p {
+        margin: 0;
+        font-size: 16px;
+      }
+    }
+
+    .copyRightStrip {
+      p {
+        padding: 10px;
+        font-size: 8px;
+      }
+    }
+  }
+}
