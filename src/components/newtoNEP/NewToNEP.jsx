@@ -1,5 +1,6 @@
 import { newToNEPData } from '../../utils/utils'
 import styles from './newToNEP.module.scss'
+import { ArrowRight } from '@mui/icons-material/'
 
 export default function NewToNEP() {
   return (
@@ -7,11 +8,17 @@ export default function NewToNEP() {
       <h2>Key Features of New to NEP</h2>
       <div className={styles.cardsWrapper}>
         {newToNEPData.map((data, i) => (
-          <div key={i} className={styles.cards}>
+          <div key={i} className={styles.card}>
             <img src={data.image} alt="NEP" />
-            <div>
-              <p>{data.title}</p>
-            </div>
+            <h3>{data.title}</h3>
+            {data?.desc.map((desc, j) => (
+              <div key={j}>
+                <span>
+                  <ArrowRight fontSize="small" />
+                </span>
+                <p>{desc}</p>
+              </div>
+            ))}
           </div>
         ))}
       </div>

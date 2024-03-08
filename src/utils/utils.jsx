@@ -1,7 +1,7 @@
 export const headerData = [
   { title: 'Home', link: '/' },
-  { title: 'About Us', link: '/' },
   { title: 'Feedback', link: '/feedback' },
+  { title: 'Community', link: '/' },
   { title: 'Resources', link: '/' },
   { title: 'Train with us', link: '/' },
 ]
