@@ -24,9 +24,9 @@ function Community() {
           questions.map((item) => (
             <div key={item.id} className={styles.questionare}>
               <p>{item?.desc}</p>
-              {replies.map((reply, i) => {
+              {/* {replies.map((reply, i) => {
                 return <p key={i}></p>
-              })}
+              })} */}
               <div>
                 <TextField placeholder="Search..." fullWidth />
                 <Button variant="contained">Add Reply</Button>
