@@ -1,0 +1,22 @@
+.sidebarContainer {
+  width: 100vw;
+  position: relative;
+  z-index: 9999;
+  .actionWrapper {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .options {
+    padding: 0 20px;
+    margin-top: 4rem;
+    span {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      font-size: 18px;
+    }
+  }
+}

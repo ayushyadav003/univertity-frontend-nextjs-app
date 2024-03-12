@@ -20,8 +20,8 @@ export default function Feeback() {
             <TextField type="text" label="Last Name" fullWidth />
           </div>
           <div className={styles.formFieldWrapper}>
-            <TextField type="text" label="Subject" fullWidth />
-            <FormControl fullWidth>
+            <TextField type="text" label="Subject" fullWidth multiline />
+            {/* <FormControl fullWidth>
               <InputLabel id="demo-simple-select-label">Category</InputLabel>
               <Select
                 labelId="demo-simple-select-label"
@@ -30,12 +30,8 @@ export default function Feeback() {
                 // value={age}
                 label="Category"
                 // onChange={handleChange}
-              >
-                {/* <MenuItem value={10}>Ten</MenuItem>
-                <MenuItem value={20}>Twenty</MenuItem>
-                <MenuItem value={30}>Thirty</MenuItem> */}
-              </Select>
-            </FormControl>
+              ></Select>
+            </FormControl> */}
           </div>
           <TextField
             multiline

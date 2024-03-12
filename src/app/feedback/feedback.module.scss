@@ -130,17 +130,20 @@
 
     .contactUsForm {
       width: 90%;
-      top: 8%;
+      top: 12%;
+      left: 5%;
       display: grid;
+      justify-content: center;
       padding: 0 0 2rem 0;
 
       form {
         padding: 2rem 1rem;
-        width: 90%;
+        width: 100%;
 
         button {
           margin: 2rem auto 0 auto;
           padding: 10px 30px;
+          width: fit-content;
         }
       }
 

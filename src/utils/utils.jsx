@@ -1,18 +1,16 @@
 export const headerData = [
   { title: 'Home', link: '/' },
+  { title: 'About Us', link: '/' },
   { title: 'Feedback', link: '/feedback' },
-  { title: 'Community', link: '/' },
-  { title: 'Resources', link: '/' },
-  { title: 'Train with us', link: '/' },
+  { title: 'Community', link: '/community' },
+  { title: 'Books & Liibraries', link: '/' },
 ]
 
 export const topBarData = [
-  { title: 'Audio', link: '/' },
-  { title: 'Video', link: '/' },
-  { title: '50 Year Events', link: '/' },
-  { title: 'Special Lectures', link: '/' },
-  { title: 'Event Archive', link: '/' },
-  { title: 'Contact Us', link: '/' },
+  { title: 'Audios', link: '/' },
+  { title: 'Videos', link: '/videos' },
+  // { title: 'Produts', link: '/' },
+  { title: 'Contact Us', link: '/contact-us' },
 ]
 
 export const homeBannerResponsive = {
