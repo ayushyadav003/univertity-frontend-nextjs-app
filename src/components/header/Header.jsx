@@ -3,7 +3,7 @@ import { usePathname } from 'next/navigation'
 import { headerData, topBarData } from '../../utils/utils'
 import styles from './Header.module.scss'
 import Link from 'next/link'
-import { Menu } from '@mui/material'
+import { Menu } from '@mui/icons-material'
 function Header() {
   const path = usePathname()
   const currentPath = path.split('/')[1]
